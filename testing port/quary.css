@@ -1,0 +1,108 @@
+@media (max-width: 768px) {
+    .nav-left {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+       .header-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* .animated-text { */
+        /* font-size: 8vw; */
+        /* height: 16vw; */
+        /* display: flex; */
+        /* align-items: left;
+        justify-content: ; */
+    /* } */
+
+        .nav-left a {
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        .menu-toggle {
+            display: flex;
+        }
+
+        .nav-left.active {
+            display: flex;
+        }
+
+        /* navbar finish */
+
+        .header {
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+    .animated-text {
+        font-size: 6vw;
+        height: 12vw;
+        position: relative;
+        text-align: center;
+    }
+
+    .animated-text span {
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+}
+ 
+        .header-right {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+
+
+    @media (max-width: 600px) {
+        .animated-text {
+            font-size: 6vw;
+            height: 12vw;
+            /* align-items: start;  */
+        }
+
+        /* ---------- */
+
+        .header-button {
+            background-color: yellow;
+            color: black;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .header-button:hover {
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+        }
+
+        .header-right {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header-right img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
